@@ -7,4 +7,7 @@
   <li>avoir un client ssh sur la marchine source et un serveur ssh sur la machine cible</li>
 </ul>
 
-<strong>le chemin par défault et "/var/www" </strong>
+<strong>le chemin par défault pour la création de l'archive et "/var/www" </strong>
+
+
+<strong>le chemin par défaut pour le serveur distant et .<strong>
