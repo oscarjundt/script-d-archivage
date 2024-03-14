@@ -7,3 +7,4 @@
   <li>avoir un client ssh sur la marchine source et un serveur ssh sur la machine cible</li>
 </ul>
 
+<strong>le chemin par défault et "/var/www" </strong>
