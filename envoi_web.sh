@@ -4,7 +4,7 @@ echo "# developper par oscar jundt-schmitter"
 echo "# donnee a donner au script :"
 echo "#	l'ip du serveur de stockage"
 echo "#	l'identifiant de connection"
-echo "#	le chemin des donnee archiver(par default /var/www)"
+echo "#	le chemin des donneex archiver(par default /var/www)"
 echo "################################################################################"
 dateActuelle=$(date)
 #demande ou sont sotcker les site, si null chemin par default
@@ -43,7 +43,7 @@ if [ ! -d "archive_web" ] ; then
 mkdir archive_web		
 fi		
 cd archive_web
-mkdir "archive_$er"
+mkdir "archive_$dateActuelle"
 he
 
 #connection en sftp pour envoyer l'archive au servuer de stockage
