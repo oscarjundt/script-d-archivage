@@ -13,7 +13,7 @@ if [ "$3" == "" ] ; then
 	if [ "$chemin" == "" ] ; then
 		cd /var/www
 	else
-		cd chemin
+		cd $chemin
 	fi
 elif [ "$3" != "" ] ; then
 	cd $3
